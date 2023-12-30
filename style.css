@@ -199,6 +199,7 @@ body{
   }
 
   .mobile-nav-toggle{
+    cursor: pointer;
     display: block;
     position: absolute;
     background-color: transparent;
