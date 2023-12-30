@@ -159,6 +159,11 @@ body{
 /* mobile nav */
 
 @media(max-width: 620px){
+
+  .header .container{
+    margin-top: var(--size-700);
+  }
+
   .nav{
     position: fixed;
     inset: 0 0 0 30%;
@@ -202,7 +207,7 @@ body{
     width: 2rem;
     border: 0;
     aspect-ratio: 1;
-    top: 5.5rem;
+    top: 3.7rem;
     right: 2rem;
     z-index: 9999;
   }
