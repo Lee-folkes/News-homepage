@@ -382,7 +382,7 @@ body{
   "card3" ;
   gap: 1.5rem;
   margin-top: var(--size-700);
-  margin-bottom: var(--size-700);
+  margin-bottom: var(--size-900);
 }
 
 @media (min-width:770px){
