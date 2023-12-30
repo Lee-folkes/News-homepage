@@ -164,14 +164,21 @@ body{
     inset: 0 0 0 30%;
     background: var(--clr-neutral-100);
     z-index: 1000;
-
     transform: translateX(100%);
     transition: transform 350ms ease-out;
-
   }
 
   .nav[data-visible="true"] {
     transform: translateX(0%);
+  }
+
+  .background-cover{
+    inset: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 500;
+    position: fixed;
+    display: none;
   }
 
   .nav > ul{
@@ -204,6 +211,13 @@ body{
     background-image: url(/img/icon-menu-close.svg);
     position: fixed;
   }
+
+  .background-cover[data-visible="true"]{
+    display: block;
+  }
+
+
+
   
 }
 
